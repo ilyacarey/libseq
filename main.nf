@@ -176,7 +176,6 @@ process EXTRACT_TFBS {
     -e ${params.cutadapt_e} \
     --overlap ${params.extract_overlap} \
     -g "${params.left_flank}...${params.right_flank}" \
-    --discard-untrimmed \
     --untrimmed-output ${bin_fastq.simpleName}.untrimmed.fastq.gz \
     -m ${params.tfbs_min_len} -M ${params.tfbs_max_len} \
     --too-long-output  ${bin_fastq.simpleName}.toolong.fastq.gz \
