@@ -1,4 +1,4 @@
-# illumina_library_extracter
+# libseq
 
 Nextflow pipeline for processing paired-end Illumina reads, especially useful for analysing amplicons of library variants. Takes raw FASTQ files and outputs per-bin sequence frequency counts.
 
