@@ -32,14 +32,14 @@ Whole-read and library-region counting can each be toggled independently (see pa
 
 **Clone and run locally:**
 ```bash
-git clone https://github.com/ilyacarey/illumina_library_extracter.git
-cd illumina_library_extracter
+git clone https://github.com/ilyacarey/libseq.git
+cd libseq
 nextflow run main.nf -profile conda
 ```
 
 **Run directly from GitHub** (barcodes FASTA must be available locally):
 ```bash
-nextflow run ilyacarey/illumina_library_extracter -profile conda
+nextflow run ilyacarey/libseq -profile conda
 ```
 
 Update the relevant parameters in `nextflow.config` before running, or pass them on the command line:
